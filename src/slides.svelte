@@ -15,7 +15,10 @@
 	import Linkedin from './assets/images/linkedin.webp'
 	import Twitter from './assets/images/twitter.jpeg'
 
-	import DesktopWeb1 from './assets/images/OBDKVJ1.png'
+	import Hasil1 from './assets/images/extra-1.png'
+	import Hasil2 from './assets/images/extra-2.png'
+	import Hasil3 from './assets/images/extra-3.png'
+	import Hasil4 from './assets/images/extra-4.png'
 
 	import html from './assets/images/icons8-html-96.png'
 	import css from './assets/images/icons8-css-96.png'
@@ -271,13 +274,39 @@
 	</Vertical>
 
 	<Vertical>
-		<Slide>
+		<Slide animate>
 			<Layout>
 				<h1 class="text-6xl font-bold">
 					Apa yang akan kita buat diakhir semester
 				</h1>
-				<Stretch type="img" src={DesktopWeb1} class="h-[90vh]"
-				></Stretch>
+				<Stretch type="img" src={Hasil1} class="h-[80vh]"></Stretch>
+			</Layout>
+		</Slide>
+
+		<Slide animate>
+			<Layout>
+				<h1 class="text-6xl font-bold">
+					Apa yang akan kita buat diakhir semester
+				</h1>
+				<Stretch type="img" src={Hasil2} class="h-[80vh]"></Stretch>
+			</Layout>
+		</Slide>
+
+		<Slide animate>
+			<Layout>
+				<h1 class="text-6xl font-bold">
+					Apa yang akan kita buat diakhir semester
+				</h1>
+				<Stretch type="img" src={Hasil3} class="h-[80vh]"></Stretch>
+			</Layout>
+		</Slide>
+
+		<Slide animate>
+			<Layout>
+				<h1 class="text-6xl font-bold">
+					Apa yang akan kita buat diakhir semester
+				</h1>
+				<Stretch type="img" src={Hasil4} class="h-[80vh]"></Stretch>
 			</Layout>
 		</Slide>
 	</Vertical>
