@@ -116,7 +116,7 @@
 						<li>
 							<h2>Lomba Web Kabupaten Klaten - 2021</h2>
 							<Step>
-								<p class="text-2lg">Juara 1</p>
+								<p class="text-4xl">Juara 1</p>
 							</Step>
 						</li>
 					</Step>
@@ -125,10 +125,10 @@
 							<h2>Lomba Web Provinsi Jawa Tengah - 2022</h2>
 							<div class="flex m-auto gap-4">
 								<Step>
-									<p class="text-2lg">Juara 2</p>
+									<p class="text-4xl">Juara 2</p>
 								</Step>
 								<Step>
-									<p class="text-2lg">Dari belakang</p>
+									<p class="text-2xl">Dari belakang</p>
 								</Step>
 							</div>
 						</li>
