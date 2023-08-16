@@ -528,7 +528,7 @@
 		<Slide>
 			<Layout>
 				<h1 class="text-6xl font-bold">Materi dari extra</h1>
-				<p>Jangan ragu untuk bertanya</p>
+				<p>di share di</p>
 				<ul class="flex flex-row gap-8">
 					<Step>
 						<li class="flex flex-col justify-center items-center">
