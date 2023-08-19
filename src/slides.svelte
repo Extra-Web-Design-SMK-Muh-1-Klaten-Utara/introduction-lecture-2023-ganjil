@@ -279,34 +279,30 @@
 				<h1 class="text-6xl font-bold">
 					Apa yang akan kita buat diakhir semester
 				</h1>
-				<Stretch type="img" src={Hasil1} class="h-[80vh]"></Stretch>
 			</Layout>
 		</Slide>
 
 		<Slide animate>
 			<Layout>
-				<h1 class="text-6xl font-bold">
-					Apa yang akan kita buat diakhir semester
-				</h1>
-				<Stretch type="img" src={Hasil2} class="h-[80vh]"></Stretch>
+				<Stretch type="img" src={Hasil1}></Stretch>
 			</Layout>
 		</Slide>
 
 		<Slide animate>
 			<Layout>
-				<h1 class="text-6xl font-bold">
-					Apa yang akan kita buat diakhir semester
-				</h1>
-				<Stretch type="img" src={Hasil3} class="h-[80vh]"></Stretch>
+				<Stretch type="img" src={Hasil2}></Stretch>
 			</Layout>
 		</Slide>
 
 		<Slide animate>
 			<Layout>
-				<h1 class="text-6xl font-bold">
-					Apa yang akan kita buat diakhir semester
-				</h1>
-				<Stretch type="img" src={Hasil4} class="h-[80vh]"></Stretch>
+				<Stretch type="img" src={Hasil3}></Stretch>
+			</Layout>
+		</Slide>
+
+		<Slide animate>
+			<Layout>
+				<Stretch type="img" src={Hasil4}></Stretch>
 			</Layout>
 		</Slide>
 	</Vertical>
