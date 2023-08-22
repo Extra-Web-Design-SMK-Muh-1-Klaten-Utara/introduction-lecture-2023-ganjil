@@ -6,6 +6,7 @@
 		Vertical,
 		Step,
 		Stretch,
+		Row,
 	} from '@components'
 
 	import Me from './assets/images/me.jpg'
@@ -505,6 +506,189 @@
 				</div>
 			</Layout>
 		</Slide>
+	</Vertical>
+
+    <Vertical>
+        <Slide>
+            <Layout>
+                <h2 class="font-bold text-6xl">Roadmap</h2>
+                <p class="text-3xl mt-4">Biar tidak tersesat</p>
+            </Layout>
+        </Slide>
+		<Slide>
+			<Layout>
+				<a
+					href="https://code.visualstudio.com/"
+					class="flex flex-col gap-2 p-2 rounded justify-center items-center"
+				>
+					<img src={vscode} alt="vscode" class="w-40 h-40" />
+					<h2 class="font-bold">Visual Studio Code</h2>
+				</a>
+
+				<Row>
+					<div class="flex flex-col gap-4">
+						<h3 class="text-center underline decoration-4">
+							Sesi 1
+						</h3>
+						<ul class="text-left text-3xl list-disc">
+							<li>Instalasi Visual Studio Code</li>
+							<li>Pemakaian Visual Studio Code</li>
+							<li>Shortcut Visual Studio Code</li>
+						</ul>
+					</div>
+				</Row>
+			</Layout>
+		</Slide>
+
+		<Slide>
+			<Layout>
+				<a
+					href="https://id.wikipedia.org/wiki/HTML/"
+					class="flex flex-col gap-2 p-2 rounded justify-center items-center"
+				>
+					<img src={html} alt="html" class="w-40 h-40" />
+					<h2 class="font-bold">HTML</h2>
+				</a>
+				<Row>
+					<div class="flex flex-col gap-4">
+						<h3 class="text-center underline decoration-4">
+							Sesi 1
+						</h3>
+						<ul class="text-left text-3xl list-disc">
+							<li>Pengenalan HTML</li>
+							<li>Paragraf</li>
+							<li>Judul / Heading</li>
+							<li>Formatting</li>
+							<li>Daftar / List</li>
+						</ul>
+					</div>
+
+					<div class="flex flex-col gap-4">
+						<h3 class="text-center underline decoration-4">
+							Sesi 2
+						</h3>
+						<ul class="text-left text-3xl list-disc">
+							<li>Gambar</li>
+							<li>Tabel</li>
+							<li>Form</li>
+							<li>Pengelompokan Element</li>
+							<li>Projek</li>
+						</ul>
+					</div>
+				</Row>
+			</Layout>
+		</Slide>
+
+		<Slide>
+			<Layout>
+				<a
+					href="https://id.wikipedia.org/wiki/Cascading_Style_Sheets/"
+					class="flex flex-col gap-2 p-2 rounded justify-center items-center"
+				>
+					<img src={css} alt="css" class="w-40 h-40" />
+					<h2 class="font-bold">CSS</h2>
+				</a>
+
+				<Row>
+					<div class="flex flex-col gap-4">
+						<h3 class="text-center underline decoration-4">
+							Sesi 1
+						</h3>
+						<ul class="text-left text-3xl list-disc">
+							<li>Pengenalan CSS</li>
+							<li>Pewarnaan</li>
+							<li>Font</li>
+							<li>Variabel</li>
+							<li>Box Model</li>
+						</ul>
+					</div>
+
+					<div class="flex flex-col gap-4">
+						<h3 class="text-center underline decoration-4">
+							Sesi 2
+						</h3>
+						<ul class="text-left text-3xl list-disc">
+							<li>Bayangan</li>
+							<li>Layout</li>
+							<li>Animasi</li>
+							<li>Projek</li>
+						</ul>
+					</div>
+				</Row>
+			</Layout>
+		</Slide>
+
+		<Slide>
+			<Layout>
+				<a
+					href="https://id.wikipedia.org/wiki/JavaScript/"
+					class="flex flex-col gap-2 p-2 rounded justify-center items-center"
+				>
+					<img src={js} alt="js" class="w-40 h-40" />
+					<h2 class="font-bold">JavaScript</h2>
+				</a>
+
+				<Row>
+					<div class="flex flex-col gap-4">
+						<h3 class="text-center underline decoration-4">
+							Sesi 1
+						</h3>
+						<ul class="text-left text-3xl list-disc">
+							<li>Pengenalan Javascript</li>
+							<li>Variabel</li>
+							<li>Kondisi</li>
+						</ul>
+					</div>
+
+					<div class="flex flex-col gap-4">
+						<h3 class="text-center underline decoration-4">
+							Sesi 2
+						</h3>
+						<ul class="text-left text-3xl list-disc">
+							<li>Pengulangan</li>
+							<li>Array / Kumpulan Data</li>
+							<li>Function / Prosedur</li>
+						</ul>
+					</div>
+
+					<div class="flex flex-col gap-4">
+						<h3 class="text-center underline decoration-4">
+							Sesi 3
+						</h3>
+						<ul class="text-left text-3xl list-disc">
+							<li>DOM / Document Object Model</li>
+							<li>Event</li>
+							<li>Projek</li>
+						</ul>
+					</div>
+				</Row>
+			</Layout>
+		</Slide>
+
+		<Slide>
+			<Layout>
+				<a
+					href="https://id.wikipedia.org/wiki/JavaScript/"
+					class="flex flex-col gap-2 p-2 rounded justify-center items-center"
+				>
+					<img src={figma} alt="figma" class="w-40 h-40" />
+					<h2 class="font-bold">Figma</h2>
+				</a>
+
+				<Row>
+					<div class="flex flex-col gap-4">
+						<h3 class="text-center underline decoration-4">
+							Sesi 1
+						</h3>
+						<ul class="text-left text-3xl list-disc">
+							<li>Instalasi Visual Studio Code</li>
+							<li>Pemakaian Visual Studio Code</li>
+							<li>Shortcut Visual Studio Code</li>
+						</ul>
+					</div>
+				</Row>
+			</Layout>
+		</Slide>
 
 		<Slide animate animateId="panic">
 			<Layout>
@@ -520,7 +704,7 @@
 				</p>
 			</Layout>
 		</Slide>
-	</Vertical>
+    </Vertical>
 
 	<Vertical>
 		<Slide animate>

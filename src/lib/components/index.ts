@@ -10,6 +10,7 @@ import Step from './step.svelte'
 import Stretch from './stretch.svelte'
 import Vertical from './vertical.svelte'
 import Layout from './layout.svelte'
+import Row from './row.svelte'
 
 export {
 	Code,
@@ -24,4 +25,5 @@ export {
 	Stretch,
 	Vertical,
 	Layout,
+    Row,
 }
